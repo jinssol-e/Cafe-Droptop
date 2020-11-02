@@ -1,0 +1,115 @@
+/* title */
+#title {
+    max-width: 1920px;
+    min-width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+#title > img {
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#title .title_text {
+    width: 1200px;
+    height: 500px;
+}
+#title h1 {
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    top: 185px;
+    color: #fff;
+}
+#title h3 {
+    font-size: 28px;
+    position: relative;
+    text-align: center;
+    top: 220px;
+    font-weight: lighter;
+    color: #fff;
+}
+
+/* lnb */
+#lnb {
+    width: 1200px;
+    margin: 0 auto;
+}
+#lnb li {
+    /* font-family: 'S-CoreDream-1Thin', sans-serif; */
+    float: left;
+    width: calc(1200px / 4);
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    text-align: center;
+    background: #252525;
+    margin-bottom: 25px;
+}
+#lnb li a {
+    display: block;
+    color: #faf4dd;
+}
+
+#lnb .active {
+    background: #faf4dd;;
+}
+#lnb .active a {
+    color: #252525;
+}
+
+/* breadcrumb */
+.location {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: right;
+    font-size: 12px;
+    color: #787878;
+}
+
+/* map */
+#map {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+/* main_location */
+#main_location {
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+#main_location > h2 {
+    font-size: 34px;
+    font-family: 'S-CoreDream-6Bold', sans-serif;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    margin-bottom: 100px;
+}
+#main_location > .p_name {
+    float: left;
+}
+#main_location > .p_name > p {
+    font-family: 'S-CoreDream-4Regular', sans-serif;
+    margin-bottom: 55px;
+    line-height: 40px;
+}
+#main_location > .sub_contents {
+    position: absolute;
+    left: 130px;
+}
+#main_location > .sub_contents > p {
+    margin-bottom: 55px;
+    line-height: 40px;
+}
+#main_location > .place_img {
+    position: absolute;
+    right: 100px;
+    top: 250px;
+}
