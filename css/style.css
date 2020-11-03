@@ -169,19 +169,24 @@ body {
     position: absolute;
     right: 130px; top: 4px;
 }
-#main_header .sns > img {
-    width: 16px; height: 16px;
+#main_header .sns > a > img {
+    width: 100%;
+}
+#main_header .sns > a {
+    width: 16px;
+    height: 16px;
+    display: block;
     margin-left: 20px;
     position: absolute;
     top: 2px; 
 }
-#main_header .sns > img:first-child {
+#main_header .sns > a:first-child {
     right: 90px;
 }
-#main_header .sns > img:nth-child(2) {
+#main_header .sns > a:nth-child(2) {
     right: 55px;
 }
-#main_header .sns > img:nth-child(3) {
+#main_header .sns > a:nth-child(3) {
     right: 20px;
 }
 
