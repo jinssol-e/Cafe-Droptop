@@ -1,17 +1,13 @@
 /* title */
 #title {
-    max-width: 1920px;
-    min-width: 1200px;
+    width: 100%;
     height: 500px;
     margin: 0 auto;
     position: relative;
+    background-image: url(../images/sub1_3_title_img.png);
+    background-size: cover;
 }
-#title > img {
-    height: 500px;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-}
+
 #title .title_text {
     width: 1200px;
     height: 500px;
@@ -59,13 +55,6 @@
 #lnb .active a {
     color: #252525;
 }
-#lnb .effect {
-    background: rgb(54, 50, 43);
-}
-#lnb .effect a {
-    color: #faf4dd;
-}
-
 
 /* breadcrumb */
 .location {
