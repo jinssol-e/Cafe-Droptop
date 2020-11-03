@@ -80,4 +80,16 @@ $(function(){
 //         $(this).siblings().removeClass('active')
 //     })
 // })
+
+$(function(){
+    $('#lnb li').hover(
+        function(){
+            $(this).addClass('effect')
+            $(this).siblings().removeClass('effect')
+        },
+        function(){
+            $(this).removeClass('effect')
+        }
+    )
+})
    
