@@ -307,7 +307,7 @@ body {
      potision: absolute;
      top: 50%; 
      left: 50%;
-     transform: translate(-50%. -50%)}
+     transform: translate(-50%, -50%)}
 #menu_quick .menu_quick_btn > a:hover {
     background: #faf4dd;
     color: #252525;
