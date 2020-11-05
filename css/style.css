@@ -294,8 +294,8 @@ body {
     border-radius: 50%;
     background: none;
     border: 1px solid rgba(250, 244, 220, 0.5);
-/*     line-height: 60px; */
-/*     text-align: center; */
+    /* line-height: 63px; */
+    /* text-align: center; */
     color: #faf4dd;
     position: relative;
     display: block;
@@ -304,10 +304,11 @@ body {
     font-weight: lighter;
 }
 #menu_quick .menu_quick_btn > a > span {
-     potision: absolute;
-     top: 50%; 
-     left: 50%;
-     transform: translate(-50%, -50%)}
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 #menu_quick .menu_quick_btn > a:hover {
     background: #faf4dd;
     color: #252525;
