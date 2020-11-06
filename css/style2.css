@@ -81,9 +81,7 @@ hr {
     left: 0; top: 50%;
     transform: translateY(-50%);
 }
-#main_header .logo_header > img {
-    
-}
+
 
 /* gnb */
 /* .bg {
@@ -306,7 +304,7 @@ hr {
 }
 #menu_quick .menu_quick_btn > a > .line_1 {
     width: 27px;
-    height: 1px;
+    height: 2px;
     background: #faf4dd;
     position: absolute;
     left: 50%; 
@@ -314,7 +312,7 @@ hr {
     transform: translate(-50%, -50%);
 }
 #menu_quick .menu_quick_btn > a > .line_2 {
-    width: 1px;
+    width: 2px;
     height: 27px;
     background: #faf4dd;
     position: absolute;
@@ -360,7 +358,7 @@ hr {
 #add_banner > .img_box > img:nth-child(2) {
     position: absolute;
     top: 105px;
-    right: 30px;
+    right: 50px;
 }
 #add_banner > .img_box > img:nth-child(3) {
     position: absolute;
@@ -549,7 +547,7 @@ hr {
 #add_banner .add_txt3 {
     position: absolute;
     top: 400px;
-    right: 270px;
+    right: 290px;
 }
 #add_banner .add_txt3 > p {
     text-align: right;
