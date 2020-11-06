@@ -570,7 +570,7 @@ hr {
 /* 이벤트 & 뉴스 & 프랜차이즈 */
 #event_news_fr {
     width: 1200px;
-    /* height: 650px; */
+    height: 690px;
     outline: 2px solid red;
     position: relative;
     overflow: hidden;
@@ -581,14 +581,14 @@ hr {
     float: left;
     background: #252525;
     width: 593px;
-    height: 670px;
+    height: 690px;
     position: relative;
 }
 #event_news_fr > .right_box {
     float: right;
     background: url(../images/fr_box_bg.png);
     width: 593px;
-    height: 670px;
+    height: 690px;
     position: relative;
 }
 #event_news_fr h2 {
@@ -659,7 +659,8 @@ hr {
 #event_news_fr > .left_box > .event_quick, 
 #event_news_fr > .left_box > .news_quick {
     position: relative;
-    left: 500px;
+    right: 50px;
+    text-align: right;
 }
 #event_news_fr > .left_box > .event_quick a,
 #event_news_fr > .left_box > .news_quick a {
